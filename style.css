@@ -34,8 +34,7 @@ button a {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 200px;
+    justify-content: space-around;
 }
 
 .navbar-logo {
@@ -47,20 +46,21 @@ button a {
 /* header section */
 
 .header {
+    height: 50vh;
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 100px 200px;
-    gap: 25px;
+    justify-content: space-around;
+    padding: 100px 250px;
+    gap: 16px;
 }
 
 .header-text {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     align-items: flex-start;
-    justify-content: stretch;
+    flex: 1;
     gap: 5px;
 }
 .main-title {
@@ -86,7 +86,7 @@ button a {
     align-items: center;
     justify-content: center;
     background-color: #e5e7eb6c;
-    width: 600px;
+    width: 400px;
     height: 200px;
 }
 /* information section */
